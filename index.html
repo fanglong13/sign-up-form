@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up | CHILLPILL Form</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <h1 class="company">CHILLPILL <sup>&trade;</sup></h1>
+        <img src="brain organ-amico.svg" class="illustration" alt="" />
+        <p class="quote">Sign up today to chill!</p>
+      </div>
+
+      <form action="" method="">
+        <div class="form-container">
+          <h1 class="form-header">Get started</h1>
+
+          <div class="input-container">
+            <input id="f-name" name="f-name" type="text" required />
+            <label for="f-name">First name</label>
+            <div class="error"></div>
+          </div>
+
+          <div class="input-container">
+            <input id="l-name" name="l-name" type="text" required />
+            <label for="l-name">Last name</label>
+            <div class="error"></div>
+          </div>
+
+          <div class="input-container">
+            <input id="email" name="email" type="email" required />
+            <label for="email">E-mail</label>
+            <div class="error"></div>
+          </div>
+
+          <div class="input-container">
+            <input id="phone" name="phone" type="tel" required />
+            <label for="phone">Phone</label>
+            <div class="error"></div>
+          </div>
+
+          <div class="input-container">
+            <input id="password" name="password" type="password" required />
+            <label for="password">Password</label>
+            <div class="error"></div>
+          </div>
+
+          <div class="input-container">
+            <input id="confirm-password" name="confirm-password" type="password" required />
+            <label for="confirm-password">Confirm password</label>
+            <div class="error"></div>
+          </div>
+
+          <div class="form-submit">
+            <input name="submit" type="submit" id="submit" class="submit-btn" value="Create Account" />
+            <p class="btm-text">Already have an account? <span class="btm-text-highlighted"> CHILL</span></p>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="container-overlay disabled">
+      <div class="image-container">
+        <h1 class="company">CHILLPILL <sup>&trade;</sup></h1>
+
+        <img src="brain organ-amico.svg" class="illustration" alt="" />
+        <div class="author-link">
+          &copy;&nbsp;
+          <a class="link-hover" href="https://github.com/fanglong13/sign-up-form">Source Code</a> |
+          <a>Thank's for signing up!</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
